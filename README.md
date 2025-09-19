@@ -1,16 +1,43 @@
-# talk2docs
+# Talk2Docs - Flutter Frontend
 
-Talk with your documents easily with Talk2 Docs app
+Talk2Docs is an AI-powered chatbot that allows users to upload PDFs and interact with them by asking natural language questions.  
+This repository contains the **Flutter frontend** of the project, which provides a modern, cross-platform interface for mobile and web.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎯 Features
+- Cross-platform Flutter app (Android + Web)
+- Google Sign-In authentication
+- Upload and manage PDF documents
+- Real-time chat interface to query documents
+- Integration with backend (Python + LangChain + GPT-4)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- **Frontend:** Flutter / Dart  
+- **Authentication:** Google Sign-In / Firebase  
+- **Backend Communication:** WebSocket API  
+- **Backend (separate repo):** Python, LangChain, GPT-4 API  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 👩‍💻 My Contributions
+As part of my **Senior Project (2021–2024)** for my **B.Sc. in Computer Science (GPA 4.0/4.0)** at LIU:
+- Designed and built the complete **Flutter frontend** (mobile and web).
+- Implemented **Google Sign-In** and authentication flows.
+- Developed UI for PDF upload, management, and chat interaction.
+- Integrated the frontend with the backend (Python + GPT-4 + LangChain).
+
+---
+
+## 📂 Related Repository
+- [Talk2Docs Backend (Python + LangChain)](https://github.com/HaninKodamy/talk2docs-python)
+
+---
+
+## 🚀 Getting Started
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/HaninKodamy/talk2docs-flutter.git
+   cd talk2docs-flutter
